@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.loginContainer{
+    width: 100%;
+    height: 90vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logInInnerDiv{
+    margin: 60px 0px;
+    width: 40%;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px rgba(37, 204, 247,0.9) ,  inset 0px 0px 10px white  ;
+}
+
+.logInInnerDiv h3{
+    color: #0275d8;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.logInInnerDiv label{
+    font-size: 32px;
+    display: inline-block ;
+    margin-bottom: 0;
+}
+
+
+.logInInnerDiv input{
+    border: none;
+    outline: none;
+    background: transparent;
+    display: inline-block;
+    margin-bottom: 0;
+    color: black;
+    padding-top: 0px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.logInInnerDiv input::placeholder{
+    color:black;
+}
+
+.logInInnerDiv hr{
+    
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.logInInnerDiv button{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: #1B9CFC;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
+
+
+@media (max-width:1000px) {
+    .logInInnerDiv{
+        width: 50%;
+    }
+}
+
+@media (max-width:900px) {
+    .logInInnerDiv{
+        width: 55%;
+    }
+}
+
+@media (max-width:800px) {
+    .logInInnerDiv{
+        width: 60%;
+    }
+}
+
+@media (max-width:700px) {
+    .logInInnerDiv{
+        width: 65%;
+    }
+}
+
+@media (max-width:600px) {
+    .logInInnerDiv{
+        width: 70%;
+    }
+}
+
+@media (max-width:550px) {
+    .logInInnerDiv{
+        width: 80%;
+    }
+}
+
+@media (max-width:500px) {
+    .logInInnerDiv{
+        width: 85%;
+    }
+    .logInInnerDiv label{
+        font-size: 30px ;
+    }
+    .logInInnerDiv input{
+        font-size: 25px ;
+    }
+    .logInInnerDiv button{
+        font-size: 21px ;
+        margin-bottom: 30px;
+    }
+    .logInInnerDiv h3{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:450px) {
+    .logInInnerDiv{
+        width: 90%;
+    }
+    .logInInnerDiv label{
+        font-size: 27px ;
+    }
+    .logInInnerDiv input{
+        font-size: 23px ;
+    }
+    .logInInnerDiv button{
+        font-size: 19px ;
+    }
+}
+
+@media (max-width:400px) {
+   
+    .logInInnerDiv label{
+        font-size: 25px ;
+    }
+    .logInInnerDiv input{
+        font-size: 21px ;
+    }
+}
+
+@media (max-width:350px) {
+   
+    .logInInnerDiv label{
+        font-size: 23px ;
+    }
+    .logInInnerDiv input{
+        font-size: 19px ;
+    }
+}

@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.errorContainer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerErrorDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerErrorDiv img{
+    width: 35%;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.registerContainer{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerInnerDiv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px rgba(37, 204, 247,0.9) ,  inset 0px 0px 10px white  ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.registerInnerDiv h3{
+    color: #0275d8;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 21px;
+    display: inline-block ;
+    margin-bottom: 0;
+}
+
+
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+    display: inline-block;
+    margin-bottom: 0;
+    color: black;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+input::placeholder{
+    color:black;
+}
+
+hr{
+    
+    margin-top: 7px;
+    margin-bottom: 24px;
+}
+
+button{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: #1B9CFC;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width:900px) {
+    .registerInnerDiv{
+        width: 50%;
+    }
+}
+
+@media (max-width:650px) {
+   
+    .registerInnerDiv h3{
+        font-size: 30px;
+    }
+
+    label{
+        font-size: 19px;
+    }
+    input{
+        font-size: 19px;
+    }
+    button{
+        font-size: 19px;
+    }
+
+}
+
+
+@media (max-width:600px) {
+    .registerInnerDiv{
+        width: 60%;
+    }
+}
+
+
+@media (max-width:500px) {
+    .registerInnerDiv{
+        width: 70%;
+    }
+}
+
+@media (max-width:400px) {
+    .registerInnerDiv{
+        width: 80%;
+    }
+}
+
+@media (max-width:350px) {
+    .registerInnerDiv{
+        width: 90%;
+    }
+}
+
+@media (max-width:300px) {
+   
+    .registerInnerDiv h3{
+        font-size: 30px;
+    }
+
+    label{
+        font-size: 16.5px;
+    }
+    input{
+        font-size: 16.5px;
+    }
+    button{
+        font-size: 16.5px;
+    }
+
+}

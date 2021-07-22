@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.aboutContainer{
+    width: 100%;
+    height: 90vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutInnerDiv{
+    margin-top: 30px;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px rgba(37, 204, 247,0.9) ,  inset 0px 0px 10px white  ;
+    margin-bottom: 30px;
+}
+
+
+.leftInnerDiv{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftInnerDiv img{
+    width: 85%;
+}
+
+.rightInnerDiv{
+    width: 60%;
+}
+
+.upperRightDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.upperRightDiv h2{
+    font-size: 45px;
+    font-weight: 700;
+    color:#0275d8;
+}
+
+
+.lowerRightDiv{
+    width: 100%;
+}
+
+.aboutDiv{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 2px solid rgba(0, 0, 0,0.7);
+}
+
+.aboutDiv p{
+    font-size: 30px;
+    background: -webkit-linear-gradient( -90deg, rgba(0, 0, 0 ,0.8) 60%, rgba(0, 0, 0,0.5) 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userDeatailsDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.userCategory{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: flex-start;
+
+}
+
+.userCategory p{
+    /* display: none; */
+    font-size: 21px;
+    margin-bottom: 0;
+    height: 8.5vh;
+    color: black;
+    font-weight: 800;
+}
+
+.userCategory h4{
+    display: none;
+    font-size: 21px;
+    margin-bottom: 0;
+    height: 8.5vh;
+    margin-bottom: 0;
+}
+
+.userInfo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: flex-start;
+}
+
+.userInfo p{
+    font-size: 21px;
+    margin-bottom: 0;
+    height: 8.5vh;
+    color: #2C3A47;
+    color: #1B9CFC;
+    background: -webkit-linear-gradient( 135deg, #2C3A47 50%, #1B9CFC 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+
+@media (max-width:1100px) {
+ 
+            
+        .aboutInnerDiv{
+            width: 70%;
+        }
+    
+}
+
+
+@media (max-width:950px) {
+ 
+            
+        .aboutInnerDiv{
+            width: 75%;
+        }
+    
+}
+
+
+@media (max-width:850px) {
+ 
+            
+        .aboutInnerDiv{
+            width: 85%;
+        }
+    
+        .userCategory p{
+            font-size: 19px;
+        }
+        .userCategory h4{
+            font-size: 19px;
+        }
+        .userInfo p{
+            font-size: 19px;
+        }
+
+}
+
+
+@media (max-width:750px) {
+ 
+            
+        .aboutInnerDiv{
+            width: 90%;
+        }
+    
+}
+
+
+@media (max-width:700px) {
+ 
+
+        .aboutInnerDiv{
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .leftInnerDiv{
+            margin: 30px 0px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .leftInnerDiv img{
+            width: 50%;
+        }
+                
+        .rightInnerDiv{
+            width: 100%;
+        }
+        .upperRightDiv{
+            display: none;
+        }
+        
+        .lowerRightDiv{
+            width: 100%;
+        }
+        
+        .aboutDiv{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .userDeatailsDiv {
+            margin: 30px 0px;
+        }
+        .userCategory{
+            align-items: center;
+        }
+} 
+
+@media (max-width:600px) {
+ 
+    .userCategory p{
+        font-size: 23px;
+    }
+    
+    .userInfo p{
+        font-size: 23px;
+    }
+    .userCategory p{
+        display: none;
+    }
+    .userCategory h4{
+        display: block;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }
+    .userInfo p{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }
+    .userCategory{
+        width: 20%;
+    }
+    
+    .userInfo{
+        width: 80%;
+    }
+}
+
+@media (max-width:550px) {
+ 
+    .userCategory p{
+        font-size: 21px;
+    }
+    
+    .userInfo p{
+        font-size: 21px;
+    }
+
+}
+
+
+@media (max-width:400px) {
+    
+    
+    .aboutInnerDiv{
+        width: 95%;
+    }
+    .userCategory p{
+        font-size: 19px;
+    }
+    
+    .userInfo p{
+        font-size: 19px;
+    }
+    .userCategory{
+        width: 15%;
+    }
+    
+    .userInfo{
+        width: 85%;
+    }
+
+}
+
+
+@media (max-width:350px) {
+    
+    
+    
+    .userCategory p{
+        font-size: 18px;
+    }
+    
+    .userInfo p{
+        font-size: 18px;
+    }
+    
+
+}
+
+
+@media (max-width:325px) {
+       
+    .aboutInnerDiv{
+        width: 95%;
+    }
+    .userCategory p{
+        font-size: 17px;
+    }
+    
+    .userInfo p{
+        font-size: 17px;
+    }
+    
+    .aboutDiv p{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:275px) {
+       
+    .aboutInnerDiv{
+        width: 95%;
+    }
+    .userCategory p{
+        font-size: 15px;
+    }
+    
+    .userInfo p{
+        font-size: 15px;
+    }
+    
+}
